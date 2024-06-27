@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataObject", "DataObject\DataObject.csproj", "{C19F1EEC-8913-465B-BE6D-9C24D1F8AE36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{F491BA64-B233-4CED-BDF4-AF1ED9572BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLNS", "QLNS\QLNS.csproj", "{413B4241-285A-4BBF-8DB4-8F51569C9ABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C19F1EEC-8913-465B-BE6D-9C24D1F8AE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19F1EEC-8913-465B-BE6D-9C24D1F8AE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19F1EEC-8913-465B-BE6D-9C24D1F8AE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19F1EEC-8913-465B-BE6D-9C24D1F8AE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F491BA64-B233-4CED-BDF4-AF1ED9572BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F491BA64-B233-4CED-BDF4-AF1ED9572BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F491BA64-B233-4CED-BDF4-AF1ED9572BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F491BA64-B233-4CED-BDF4-AF1ED9572BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413B4241-285A-4BBF-8DB4-8F51569C9ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413B4241-285A-4BBF-8DB4-8F51569C9ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413B4241-285A-4BBF-8DB4-8F51569C9ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413B4241-285A-4BBF-8DB4-8F51569C9ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1F20BED-753B-4C05-8CCF-A1E3A6115B90}
+	EndGlobalSection
+EndGlobal

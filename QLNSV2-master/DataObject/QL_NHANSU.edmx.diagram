@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7919ef5c873c45a3934fa84dfb9ce930" Name="Diagram1" ZoomLevel="111">
+        <EntityTypeShape EntityType="QL_NHANSUModel.Account" Width="1.5" PointX="5.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Allowance" Width="1.5" PointX="9" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.BoardSalary" Width="1.5" PointX="6" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.BoardSalaryDe" Width="1.5" PointX="8.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Department" Width="1.5" PointX="0.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Discipline" Width="1.5" PointX="5.25" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Insurance" Width="1.5" PointX="5.25" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Insurance_Types" Width="1.5" PointX="3" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Lever" Width="1.5" PointX="0.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Nation" Width="1.5" PointX="0.75" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.PayRoll" Width="1.5" PointX="5.25" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Position" Width="1.5" PointX="0.75" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Reward" Width="1.5" PointX="5.25" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Role" Width="1.5" PointX="3" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Salary" Width="1.5" PointX="5.25" PointY="43" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Staff" Width="1.5" PointX="3" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.StaffJoinAllowance" Width="1.5" PointX="11.25" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.ViewNVcb" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_Accounts_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_Accounts_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_StaffJoinAllowance_Allowance" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_BoardSalaryDes_BoardSalary" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_BoardSalaryDes_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_Staff_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_DisciplineReward_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK__Insurance__idSta__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK__Insurance__idTyp__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_Staff_Lever" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_Staff_Nation" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_PayRoll_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_Staff_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK__Disciplin__idSta__1B9317B3" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK__Salaries__idStaf__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK__Salaries__idStaf__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_StaffJoinAllowance_Staff" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.NangLuong" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.DieuChuyen" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.Contract" Width="1.5" PointX="5.25" PointY="15.75" />
+        <AssociationConnector Association="QL_NHANSUModel.FK_Contract_Staff" />
+        <EntityTypeShape EntityType="QL_NHANSUModel.DienBienNangLuong" Width="1.5" PointX="3.75" PointY="4.25" />
+        <AssociationConnector Association="QL_NHANSUModel.FK__DienBienN__idNan__3C34F16F" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
